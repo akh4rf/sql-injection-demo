@@ -40,7 +40,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         <h1 class="mb-4">Sign Up</h1>
         <div class="form-group mb-4">
           <label for="username">Username</label>
-          <input type="text" class="form-control" name="username" placeholder="Enter Username" required autocomplete="off">
+          <input type="text" class="form-control" name="username" placeholder="Enter Username" required autocomplete="off" autofocus>
         </div>
         <div class="form-group mb-4">
           <label for="password">Password</label>

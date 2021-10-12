@@ -55,7 +55,7 @@ if (isset($_SESSION['uid'])) {
         <p><strong>Secret Message: </strong><?php echo $secret; ?></p>
         <form action="profile.php" method="post">
           <label for="secret" class="mb-2">New Secret Message: </label>
-          <input type="text" class="form-control mb-4" name="secret" placeholder="Enter New Secret" autocomplete="off">
+          <input type="text" class="form-control mb-4" name="secret" placeholder="Enter New Secret" autocomplete="off" autofocus>
           <button type="submit" class="btn btn-success">Submit</button>
           <a type="submit" class="btn btn-danger" href="./logout.php">Log Out</a>
         </form>
