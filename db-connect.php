@@ -15,10 +15,10 @@
         header('Access-Control-Allow-Origin: https://main.dnky7jwfbnu0c.amplifyapp.com');
     }
 
-    $db_user = 'akh4rf';
-    $db_pwd = 'tSSMZjB0UtCmy79C';
-    $host = 'localhost:3306';
-    $dbname = 'sql-injection-demo';
+    $db_user = 'admin';
+    $db_pwd = 'Fluffydog12!';
+    $host = 'bodos-bagels.cou7zzrseu9j.us-east-1.rds.amazonaws.com:3306';
+    $dbname = 'bodos_bagels';
 
     // Create DSN for PDO connection
     $dsn = "mysql:host=$host;dbname=$dbname";
